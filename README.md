@@ -1,5 +1,7 @@
 # Vizzy - Making Visual Data Inclusive
 
+<img src="vizzy_icon.png" alt="Vizzy Icon" width="150px">
+
 **Vizzy** is a Chrome extension that makes graphs and visual data more accessible for visually impaired and colorblind users.  
 It can:
 - 🎨 Recolor graphs for colorblind-friendly viewing  

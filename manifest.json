@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Vizzy - Accessible Graphs",
+  "version": "1.0",
+  "description": "Make chart images accessible with AI enhanced coloring and contrast, AI descriptions and audio narrations",
+  
+  "permissions": [
+    "contextMenus",
+    "scripting",
+    "storage"
+  ],
+  
+  "host_permissions": [
+    "http://localhost:8000/*",
+    "https://*/*"
+  ],
+  
+  "background": {
+    "service_worker": "background.js"
+  },
+  
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Vizzy - Accessible Graphs Settings"
+  },
+  
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  
+  "icons": {
+    "128": "vizzy_icon.png"
+  }
+}
